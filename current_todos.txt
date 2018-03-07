@@ -1,0 +1,5 @@
+1. Make GPU compute generations asynchronously and place them onto a queue of fixed capacity. This would require implementing a queue data structure on the GPU-side
+2. Implement an easy config file format that would allow for easier describing of the initial state of grid (currently grid's layout, size, and the number of generations has to be hardcoded). 
+Either write a format spec and a parser or reuse one of the existing formats with already-made parsing library (perhaps JSON or YAML)
+
+

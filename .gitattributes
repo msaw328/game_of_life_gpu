@@ -1,0 +1,3 @@
+src/host/* linguist-language=C
+src/device/* linguist-language=CUDA
+
